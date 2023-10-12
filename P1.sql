@@ -1,0 +1,21 @@
+EXEC NALUNO(2022161633);
+
+SELECT * FROM autores;
+EXEC SQLCHECK('FAHZSOFACFUDBBX'); 
+
+SELECT titulo FROM livros
+ORDER BY titulo;
+EXEC SQLCHECK('FAJOFSKBMIUXCEZ'); 
+
+SELECT DISTINCT genero 
+FROM livros
+ORDER BY genero;
+EXEC SQLCHECK('FAEHGSQCELEEDMQ'); 
+
+SELECT titulo, genero, 
+preco_tabela as Preco
+FROM livros
+WHERE 
+preco_tabela BETWEEN 30 AND 40
+ORDER BY preco_tabela;
+EXEC SQLCHECK('FAZPHKCDDOXSEUK');
